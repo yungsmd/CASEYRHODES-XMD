@@ -14,15 +14,13 @@
 
 
    
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 
----
+
 # CASEYRHODES BOTZ INC.❤️
 
 [![Sponsor Caseyrhodes](https://img.shields.io/badge/Sponsor-caseyweb-important)](https://github.com/sponsors/SilvaTechB)
 
----
 
 <p align="center">
   <a href="https://github.com/SilvaTechB">
@@ -30,11 +28,10 @@
   </a>
 </p>
 
---- 
 <p align="center">
 <a><img src='./sylivanus/SilvaSpark.png'/></a>
 </p>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 ***
 
