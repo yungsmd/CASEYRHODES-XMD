@@ -24,12 +24,12 @@
 
 <p align="center">
   <a href="https://github.com/SilvaTechB">
-    <img src="http://readme-typing-svg.herokuapp.com?color=6A0DAD&center=true&vCenter=true&multiline=false&lines=Silva+Spark+MD;Powering+Your+WhatsApp+Experience;Star+and+Fork+This+Repo+🌟" alt="SilvaTechBReadme">
+    <img src="http://readme-typing-svg.herokuapp.com?color=6A0DAD&center=true&vCenter=true&multiline=false&lines=Silva+Spark+MD;Powering+Your+WhatsApp+Experience;Star+and+Fork+This+Repo+🌟" alt="caseywebReadme">
   </a>
 </p>
 
 <p align="center">
-<a><img src='./sylivanus/SilvaSpark.png'/></a>
+<a><img src='https://i.ibb.co/8gHCXCV9/.jpg'/></a>
 </p>
 
 
