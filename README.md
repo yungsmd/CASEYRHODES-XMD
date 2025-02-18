@@ -4,19 +4,23 @@
 
 > **`Updated` CASEYRHODES XMD with Latest Features**
 
----
-### 🌟 Connect With Me
-<p align="center">
-  <a href="https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"></a>
-  <a href="https://instagram.com/_its.silva"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram.png" width="11%"></a>
-  <a href="https://www.facebook.com/profile.php?id=100055490090211"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="12%"></a>
-  <a href="https://x.com/silva_african"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="10%"></a>
+## CONTACT CASEYRHODES TECH
+  
+<a href="https://wa.me/254112192119"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
+  <a href="https://chat.whatsapp.com/GbpVWoHH0XLHOHJsYLtbjH"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
+  <a href="https://www.facebook.com/profile.php?id=61567123730155&name=xhp_nt__fb__action__open_user"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram2.png" width="14%"> </a>
+  <a href="https://www.facebook.com/profile.php?id=61567123730155&name=xhp_nt__fb__action__open_user"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="15%"> </a><a href="https://https://github.com/caseyweb/NHEZHO-MD"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="15%"> </a><a href="CASEYRHODES "> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="13%"> </a>
 </p>
 
----
-# Support Silva Tech Inc ❤️
 
-[![Sponsor SilvaTechB](https://img.shields.io/badge/Sponsor-SilvaTechB-important)](https://github.com/sponsors/SilvaTechB)
+   
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+
+---
+# CASEYRHODES BOTZ INC.❤️
+
+[![Sponsor Caseyrhodes](https://img.shields.io/badge/Sponsor-caseyweb-important)](https://github.com/sponsors/SilvaTechB)
 
 ---
 
