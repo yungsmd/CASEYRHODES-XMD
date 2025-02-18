@@ -1,8 +1,8 @@
 {
-  "name": "silva-spark-md",
-  "description": "Javascript WhatsApp bot made by Silva.",
-  "keywords": ["silva-spark-md"],
-  "success_url": "/",
+  "name": "CASEYRHODES-XMD",
+  "description": "Javascript WhatsApp bot made by CASEYRHODES.",
+  "keywords": ["CASEYRHODES-XMD"],
+  "success_url": "https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg",
 
     "stack": "container",
   "env": {
@@ -15,13 +15,13 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": false,
-      "value": "https://i.imgur.com/PEZ5QL2.jpeg"
+      "value": "https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg"
     }, 
     
     "LIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": false,
-      "value": "> SILVA SPARK IS SPARKING ACTIVE AND ALIVE⚡"
+      "value": "> CASEYRHODES-XMD IS SPARKING ACTIVE AND ALIVE⚡"
     },
     
     "PREFIX": {
@@ -78,26 +78,26 @@
     "AUTO_STATUS__MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*🎉👀 Seen by Silva Spark MD 🚀🔥*"
+      "value": "*🎉👀 Seen and liked by CASEYRHODES-XMD🚀🔥*"
     }, 
 
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Silva Spark"
+      "value": "CASEYRHODES"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254700143167"
+      "value": "254112192119"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "✦ Silva ✦ Spark ✦ MD ✦"
+      "value": "✦ CASEYRHODES ✦ XMD ✦"
 
       }, 
 
@@ -117,7 +117,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ✦ Silva ✦ Spark ✦ MD ✦*"
+      "value": "*© ✦ CASEYRHODES ✦ XMD ✦*"
     },
 
       "DELETE_LINKS": {
