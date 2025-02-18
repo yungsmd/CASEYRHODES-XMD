@@ -61,11 +61,11 @@
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/SilvaTechB/silva-spark-md/fork"><img title="silva-spark-md" src="https://img.shields.io/badge/FORK-silva%20spark%20md-h?color=purple&style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/caseyweb/CASEYRHODES-XMD/fork"><img title="silva-spark-md" src="https://img.shields.io/badge/FORK-silva%20spark%20md-h?color=purple&style=for-the-badge&logo=github"></a>
 
 ### 2. Get Session ID
 
-You will need a session ID to run Silva Spark MD. Click the button below to obtain your session ID:
+You will need a session ID to run CASEYRHODES XMD. Click the button below to obtain your session ID:
 
 <a href='https://silva-session-selector.vercel.app' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Session%20ID-purple?style=for-the-badge&logo=whatsapp&logoColor=white'/>
@@ -110,7 +110,7 @@ You will need a session ID to run Silva Spark MD. Click the button below to obta
 
 ---
 
-## 🔗 Silva Spark MD Info
+## 🔗 CASEYRHODES XMD Info
 
   <p align="center">
 <a href="https://github.com/SilvaTechB/followers"><img title="Followers" src="https://img.shields.io/github/followers/SilvaTechB?color=blue&style=flat-square"></a>
@@ -137,19 +137,26 @@ You will need a session ID to run Silva Spark MD. Click the button below to obta
 <p align="center">
   Not For Sale - If any plugin's code is obfuscated, you do not have permission to edit it in any form. Please remember to give credit if you are using or re-uploading my plugins/files. Wishing you a wonderful day ahead!</p>
 
----
 
-<h2 align="center">🔰Team Section🔰</h2>
 
----
 
-### Thanks To Team ⤵️
+<p align="center">
+    <a href="https://chat.whatsapp.com/GbpVWoHH0XLHOHJsYLtbjH">
+        <img height="30" title="SUPPORT GROUP" src="https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+    </a>
+</p>
 
-> Silva Spark MD Owner 
-- [Silva TechB](https://github.com/SilvaTechB)
-- Creator and Owner Of Silva Spark MD
+## CASEYRHODES SUPPORT 
 
----
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=CASEYRHODES XMD +MAKE; STAR ⭐+AND+FORKS+BY+CASEYRHODES XMD" alt="Typing SVG" /></a>
+
+
+
+## 𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑩𝒀 𝑭𝑶𝑳𝑳𝑶𝑾𝑰𝑵𝑮 𝐎𝐔𝐑 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑪𝑯𝑨𝑵𝑵𝑬𝑳
+
+
+ <a href="https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E"><img title="OUR-WHATSAPP CHANNEL" src="https://img.shields.io/badge/OUR-WHATSAPP CHANNEL-h?color=green&style=for-the-badge&logo=whatsapp" width="280" height="38.45"/></a></p>
+ 
 
  <br>
 <h2 align="center"> ⚠️ Warning ⚠️
