@@ -45,8 +45,8 @@ async (conn, mek, m, { from, isGroup, groupMetadata, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363200367779016@newsletter',
-                    newsletterName: 'SILVA TECH INC',
+                    newsletterJid: '12036330267721743@newsletter',
+                    newsletterName: 'CASEYRHODES TECH INC',
                     serverMessageId: 143,
                 },
             },
@@ -179,8 +179,8 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363200367779016@newsletter',
-            newsletterName: 'SILVA SPARK',
+            newsletterJid: '12036330267721743@newsletter',
+            newsletterName: 'ℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊-𝕏𝕄𝔻',
             serverMessageId: 143
           }
         }
