@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const repoUrl = 'https://github.com/SilvaTechB/silva-spark-md.git'; // GitHub repository URL
+        const repoUrl = 'https://github.com/caseyweb/CASEYRHODES-XMD.git'; // GitHub repository URL
         const targetFolder = 'plugins'; // Local folder for the repo
 
         // Ensure the target folder exists
@@ -38,7 +38,7 @@ cmd({
         // Send a success message with the output
         await conn.sendMessage(
             from,
-            { text: `*✅ Silva Spark Update completed successfully!*\n\n\`\`\`${output}\`\`\`` },
+            { text: `*✅ CASEYRHODES XMD Update completed successfully!*\n\n\`\`\`${output}\`\`\`` },
             { quoted: mek }
         );
     } catch (error) {
