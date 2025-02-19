@@ -13,23 +13,23 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━━〔 *✦ CASEYRHODES ✦ XMD ✦* 〕━━━┈⊷
-┃★╭──────────────
-┃★│ Owner : *${config.OWNER_NAME}*
-┃★│ Baileys : *Multi Device*
-┃★│ Type : *NodeJs*
-┃★│ Platform : *Heroku*
-┃★│ Mode : *[${config.MODE}]*
-┃★│ Prifix : *[${config.PREFIX}]*
-┃★│ Version : *1.0.0 *
-┃★╰──────────────
+        let dec = `╭━━━〔 *✦𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗥𝗘𝗦 𝗫𝗠𝗗✦* 〕━━━┈⊷
+┃❍⁠⁠⁠⁠╭──────────────
+┃❍⁠⁠⁠⁠│ Owner : *${config.OWNER_NAME}*
+┃❍⁠⁠⁠⁠│ Baileys : *Multi Device*
+┃❍⁠⁠⁠⁠│ Type : *NodeJs*
+┃❍⁠⁠⁠⁠│ Platform : *Heroku*
+┃❍⁠⁠⁠⁠│ Mode : *[${config.MODE}]*
+┃❍⁠⁠⁠⁠│ Prifix : *[${config.PREFIX}]*
+┃❍⁠⁠⁠⁠│ Version : *1.0.0 *
+┃❍⁠⁠⁠⁠╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *MENU LIST* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• AIMENU
 ┃◈┃• ANMIEMENU
 ┃◈┃• CONVERTMENU
-┃◈┃• FUNMENH
+┃◈┃• FUNMENU
 ┃◈┃• DLMENU
 ┃◈┃• LISTCMD
 ┃◈┃• MAINMENU
