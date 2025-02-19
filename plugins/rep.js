@@ -13,24 +13,24 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Fetch repository data from GitHub API
-        const repoResponse = await axios.get('https://api.github.com/repos/SilvaTechB/silva-spark-md');
+        const repoResponse = await axios.get('https://api.github.com/repos/caseyweb/CASEYRHODES-XMD');
         const { stargazers_count, forks_count } = repoResponse.data;
         const userCount = forks_count * 5; // Estimate user count based on forks
 
         // Construct the message
         const message = `
-*Hello there, Silva Spark User! 👋*
+*Hello there, caseyrhodes xmd User! 👋*
 
-💻 *Silva Spark MD Repository Info*:
+💻 *𝑪𝑨𝑺𝑬𝒀𝑹𝑯𝑶𝑫𝑬𝑺-𝑿𝑴𝑫 Repository Info*:
 ⭐ *Stars*: ${stargazers_count}
 🍴 *Forks*: ${forks_count}
 👥 *Users*: ${userCount}
-🔗 *Repository*: https://github.com/SilvaTechB/silva-spark-md
-> ✨ Silva Spark WhatsApp Bot – Simple. Smart. Feature-packed. 🚀
+🔗 *Repository*: https://github.com/caseyweb/CASEYRHODES-XMD
+> ✨ 𝑪𝑨𝑺𝑬𝒀𝑹𝑯𝑶𝑫𝑬𝑺-𝑿𝑴𝑫 WhatsApp Bot – Simple. Smart. Feature-packed. 🚀
 Effortlessly elevate your WhatsApp experience with our cutting-edge bot technology! 🎊
 *💡 Tip: Don’t forget to fork the repo and leave a star to show your support! 🌟*
 
-🙌 Thank you for choosing Silva Spark MD – your ultimate bot companion! 🎉
+🙌 Thank you for choosing ℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊-𝕏𝕄𝔻 – your ultimate bot companion! 🎉
         `;
 
         // Send the repository info as a text message
@@ -40,15 +40,15 @@ Effortlessly elevate your WhatsApp experience with our cutting-edge bot technolo
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/PEZ5QL2.jpeg` },
+                image: { url: `https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg` },
                 caption: message,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363200367779016@newsletter',
-                        newsletterName: 'SILVA SPARK MD 💖🦄',
+                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterName: 'ℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊-𝕏𝕄𝔻 💖🦄',
                         serverMessageId: 143
                     }
                 }
