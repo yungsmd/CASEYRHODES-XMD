@@ -38,7 +38,7 @@ cmd({
                 from,
                 {
                     image: { url: image.src },
-                    caption: `*🔎 Results for:* ${query}\n\n> *Powered by Silva Spark MD ✨*`
+                    caption: `*🔎 Results for:* ${query}\n\n> *Powered by ℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊-𝕏𝕄𝔻 ✨*`
                 },
                 { quoted: mek }
             );
