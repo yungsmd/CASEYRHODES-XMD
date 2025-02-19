@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.imgur.com/NCxpd2Y.jpeg' }, // Image URL from your request
-            caption: `╭━━〔 *⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈* 〕━━┈⊷
+            image: { url: 'https://i.ibb.co/Pvn4pKtJ/mrfrankofc.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *⎈ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗мᎠ ⎈* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -38,14 +38,14 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 1.0.0
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> ©⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈`, // Display the owner's details
+> ©⎈ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗мᎠ ⎈`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363200367779016@newsletter',
-                    newsletterName: 'SILVA DEVELOPERS🥰💖🥰',
+                    newsletterJid: '120363302677217436@newsletter',
+                    newsletterName: 'CASEYRHODES XMD DEVELOPERS🥰💖🥰',
                     serverMessageId: 143
                 }            
             }
