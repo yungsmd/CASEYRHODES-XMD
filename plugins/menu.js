@@ -13,19 +13,19 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━━〔 *✦𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗥𝗘𝗦 𝗫𝗠𝗗✦* 〕━━━┈⊷
+        let dec = `╭━━━〔 *𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗥𝗘𝗦 𝗫𝗠𝗗* 〕━━━┈⊷
 ┃❍⁠⁠⁠⁠╭──────────────
 ┃❍⁠⁠⁠⁠│ Owner : *${config.OWNER_NAME}*
 ┃❍⁠⁠⁠⁠│ Baileys : *Multi Device*
 ┃❍⁠⁠⁠⁠│ Type : *NodeJs*
 ┃❍⁠⁠⁠⁠│ Platform : *Heroku*
 ┃❍⁠⁠⁠⁠│ Mode : *[${config.MODE}]*
-┃❍⁠⁠⁠⁠│ Prifix : *[${config.PREFIX}]*
+┃❍⁠⁠⁠⁠│ Prefix : *[${config.PREFIX}]*
 ┃❍⁠⁠⁠⁠│ Version : *1.0.0 *
 ┃❍⁠⁠⁠⁠╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *MENU LIST* 〕━━┈⊷
-┃◈╭─────────────·๏
+┃◈╭─────────────·
 ┃◈┃• AIMENU
 ┃◈┃• ANMIEMENU
 ┃◈┃• CONVERTMENU
@@ -33,11 +33,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• DLMENU
 ┃◈┃• LISTCMD
 ┃◈┃• MAINMENU
-┃◈┃• GROUPMENI
+┃◈┃• GROUPMENU
 ┃◈┃• ALLMENU
 ┃◈┃• OWNERMENU
 ┃◈┃• OTHERMENU
-┃◈┃• LOGO <text>
+┃◈┃• LOGO <𝒕𝒆𝒙𝒕>
 ┃◈┃• REPO
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
@@ -113,6 +113,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• smovie
 ┃◈┃• baiscope 
 ┃◈┃• ginisilia 
+┃◈┃• bible
+┃◈┃• xxx
+┃◈┃• gemini
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -426,6 +429,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• ping 
 ┃◈┃• gjid
 ┃◈┃• jid
+┃◈┃• casey
+┃◈┃• tourl
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -591,8 +596,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• gpt
 ┃◈┃• meta
 ┃◈┃• blackbox
-┃◈┃• gpt4
+┃◈┃• gpt3
 ┃◈┃• bing
+┃◈┃• gemini
 ┃◈┃• copilot
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
