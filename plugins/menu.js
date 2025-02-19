@@ -24,21 +24,21 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★│ Version : *1.0.0 *
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *Menu List* 〕━━┈⊷
+╭━━〔 *MENU LIST* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• aimenu
-┃◈┃• anmiemenu
-┃◈┃• convertmenu
-┃◈┃• funmenu
-┃◈┃• dlmenu
-┃◈┃• listcmd
-┃◈┃• mainmenu
-┃◈┃• groupmenu
-┃◈┃• allmenu
-┃◈┃• ownermenu
-┃◈┃• othermenu
-┃◈┃• logo <text>
-┃◈┃• repo
+┃◈┃• AIMENU
+┃◈┃• ANMIEMENU
+┃◈┃• CONVERTMENU
+┃◈┃• FUNMENH
+┃◈┃• DLMENU
+┃◈┃• LISTCMD
+┃◈┃• MAINMENU
+┃◈┃• GROUPMENI
+┃◈┃• ALLMENU
+┃◈┃• OWNERMENU
+┃◈┃• OTHERMENU
+┃◈┃• LOGO <text>
+┃◈┃• REPO
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
