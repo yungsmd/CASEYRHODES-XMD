@@ -27,8 +27,8 @@ async (conn, mek, m, { from, quoted, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363200367779016@newsletter',
-                    newsletterName: 'SILVA SPARKING SPEED 🥰🥰',
+                    newsletterJid: '120363302677217436@newsletter',
+                    newsletterName: 'CASEYRHODES-XMD SPARKING SPEED 🥰🥰',
                     serverMessageId: 143
                 }
             }
@@ -51,10 +51,10 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         const startTime = Date.now()
-        const message = await conn.sendMessage(from, { text: '> *SPARKING...*' })
+        const message = await conn.sendMessage(from, { text: '> *PINGIIING...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*SILVA SPARK 🥰🥰 SPARKING : ${ping}ms*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*CASEYRHODES-XKD🥰🥰 IS ALIVE : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
