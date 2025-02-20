@@ -5,7 +5,7 @@ const { cmd } = require('../command');
 
 cmd({
   pattern: 'audio3',
-  alias: ['spotify', "ytmusic", "play"],
+  alias: ['spotify', "ytmusic", "music"],
   react: '🎵',
   desc: "Fetch audio from Spotify or YouTube",
   category: "media",
@@ -17,7 +17,7 @@ cmd({
     return reply("Please provide a title or link (Spotify/YouTube)!");
   }
 
-  reply("💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎 Fetching audio... 🎧");
+  reply("> ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ🫅ɪs ғᴇᴛᴄʜɪɴɢ ᴀᴜᴅɪᴏ... 🎧");
 
   let spotifySent = false;
   let youtubeSent = false;
@@ -43,7 +43,7 @@ cmd({
           contextInfo: {
             externalAdReply: {
               title: spotifyTrack.title,
-              body: "💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎 🥰💖: SPOTIFY",
+              body: "ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ🫅 🥰💖: sᴘᴏᴛɪғʏ",
               mediaType: 1,
               sourceUrl: spotifyTrack.url,
               renderLargerThumbnail: true
@@ -76,7 +76,7 @@ cmd({
           contextInfo: {
             externalAdReply: {
               title: youtubeVideo.title,
-              body: "💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎🥰: YOUTUBE",
+              body: "ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ🫅🥰: ʏᴏᴜᴛᴜʙᴇ",
               mediaType: 1,
               sourceUrl: youtubeVideo.url,
               renderLargerThumbnail: true
@@ -99,8 +99,8 @@ cmd({
   } else if (spotifySent && youtubeSent) {
     reply("Both Spotify and YouTube audio sent successfully.");
   } else if (spotifySent) {
-    reply("💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎: Spotify audio sent successfully.");
+    reply("ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ🫅: sᴘᴏᴛɪғʏ ᴀᴜᴅɪᴏ sᴇɴᴛ sᴜᴄᴄᴇsғᴜʟʟʏ.");
   } else if (youtubeSent) {
-    reply("💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎: YouTube audio sent successfully.");
+    reply("ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴄᴍᴅ: ʏᴏᴜᴛᴜʙᴇ ᴀᴜᴅɪᴏ sᴇɴᴛ sᴜᴄᴄᴇsғᴜʟʟʏ.");
   }
 });
