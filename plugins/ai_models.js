@@ -73,7 +73,7 @@ cmd({
         }
 
         // Image AI à envoyer
-        const ALIVE_IMG = 'https://i.ibb.co/6BMJmGY/mrfrankofc.jpg'; // Remplacez par l'URL de votre image AI
+        const ALIVE_IMG = 'https://i.ibb.co/XkD69sBq/mrfrankofc.jpg'; // Remplacez par l'URL de votre image AI
 
         // Légende avec des informations formatées
         const formattedInfo = `🤖 *ChatGPT Response:*\n\n${gptResponse}`;
@@ -87,7 +87,7 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363220399229536@newsletter',
+                    newsletterJid: '120363302677217436@newsletter',
                     newsletterName: 'CASEYRHODES-XMD AI',
                     serverMessageId: 143
                 }
