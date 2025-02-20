@@ -86,7 +86,7 @@ cmd({
 //&&&&&-------&&
 
 cmd({
-  pattern: "song",
+  pattern: "song4",
   react: '🎵',
   desc: "Download audio from YouTube by searching for keywords (using API 2).",
   category: "music",
