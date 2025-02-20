@@ -37,13 +37,13 @@ cmd({
   try {
     if (!q) return reply('Please provide a URL to shorten.');
 
-    await reply('> *Gmax Processing...*');
+    await reply('> *CASEYRHODES-XMD is Processing...*');
 
     let apiUrl = '';
     if (command === 'tiny' || command === 'tinyurl') {
-      apiUrl = `https://api.giftedtech.web.id/api/tools/tinyurl?apikey=gifted&url=${encodeURIComponent(q)}`;
+      apiUrl = `https://tinyurl.com/api-create.php?url=${encodeURIComponent(q)}`;
     } else {
-      apiUrl = `https://api.giftedtech.web.id/api/tools/shorturl?apikey=gifted&url=${encodeURIComponent(q)}`;
+      apiUrl = `https://tinyurl.com/api-create.php?url=${encodeURIComponent(q)}`;
     }
 
     await reply('> *Shortening URL...*');
