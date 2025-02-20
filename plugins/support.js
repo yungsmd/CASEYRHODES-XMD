@@ -33,12 +33,14 @@ let dec = `
 ⟣──────────────────⟢
 ${readMore}
 \`CHANNEL🛠️\`
-https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
+https://tinyurl.com/26kh6jss
 
 \`GROUP\` 👥
-https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
+
+https://tinyurl.com/26kh6jss
 
 \`𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃\` *Dev🧑‍💻*
+
 wa.me/+254112192119?text=Support!
 
 ⟣──────────────────⟢
