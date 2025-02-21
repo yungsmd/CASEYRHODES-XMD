@@ -45,7 +45,7 @@ cmd({
         const text = q;  // Texte de la requête de l'utilisateur
         const encodedText = encodeURIComponent(text);  // S'assurer que le texte est encodé correctement
 
-        const url = `https://gtech-api-xtp1.onrender.com/api/gemini/ai?prompt=${encodedText}`;
+        const url = `https://api.gurusensei.workers.dev/llama?prompt=${encodedText}`;
 
         console.log('Requesting URL:', url);  // Afficher l'URL pour vérifier
 
