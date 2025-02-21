@@ -37,7 +37,7 @@ cmd({
     }
     const _0x8cec1e = _0x5e6ce9.videos[0x0];
     const _0x5ce282 = _0x8cec1e.url;
-    const _0x2af2d2 = "https://api.giftedtech.web.id/api/download/dlmp4?apikey=gifted&url=" + _0x5ce282;
+    const _0x2af2d2 = "https://apis.giftedtech.web.id/api/download/dlmp4?apikey=gifted&url=" + _0x5ce282;
     const _0x442320 = await axios.get(_0x2af2d2);
     if (!_0x442320.data.success) {
       return _0x290209("❌ Failed to fetch video for \"" + _0x32deeb + "\".");
@@ -83,7 +83,7 @@ cmd({
     }
     const _0x4360a6 = _0x271698.videos[0x0];
     const _0x57ffbc = _0x4360a6.url;
-    const _0x3af9d4 = "https://api.giftedtech.web.id/api/download/dlmp3?apikey=gifted&url=" + _0x57ffbc;
+    const _0x3af9d4 = "https://apis.giftedtech.web.id/api/download/dlmp3?apikey=gifted&url=" + _0x57ffbc;
     const _0x1d283c = await axios.get(_0x3af9d4);
     if (!_0x1d283c.data.success) {
       return _0x377273("❌ Failed to fetch audio for \"" + _0x356223 + "\".");
