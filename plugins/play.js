@@ -33,7 +33,7 @@ cmd({
     }
     const _0x26f941 = _0x1ce220.videos[0x0];
     const _0x5920cf = _0x26f941.url;
-    const _0x2d1d85 = "https://api.davidcyriltech.my.id/youtube/mp3?url=" + _0x5920cf;
+    const _0x2d1d85 = "https://apis.davidcyriltech.my.id/youtube/mp3?url=" + _0x5920cf;
     const _0x4e01c1 = await axios.get(_0x2d1d85);
     if (!_0x4e01c1.data.success) {
       return _0x1967fe("❌ Failed to fetch video for \"" + _0x501cea + "\".");
@@ -79,7 +79,7 @@ cmd({
     }
     const _0x1381c4 = _0x2644f6.videos[0x0];
     const _0x4be45 = _0x1381c4.url;
-    const _0x21c154 = "https://api.davidcyriltech.my.id/download/ytmp3?url=" + _0x4be45;
+    const _0x21c154 = "https://apis.davidcyriltech.my.id/download/ytmp3?url=" + _0x4be45;
     const _0x2e3133 = await axios.get(_0x21c154);
     if (!_0x2e3133.data.success) {
       return _0xd2fbaa("❌ Failed to fetch audio for \"" + _0x316468 + "\".");
