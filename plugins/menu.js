@@ -13,7 +13,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━━〔 *𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗥𝗘𝗦 𝗫𝗠𝗗* 〕━━━┈⊷
+        let dec = `╭━━━〔 *𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗫𝗠𝗗* 〕━━━┈⊷
 ┃❍⁠⁠⁠⁠╭──────────────
 ┃❍⁠⁠⁠⁠│ Owner : *${config.OWNER_NAME}*
 ┃❍⁠⁠⁠⁠│ Baileys : *Multi Device*
@@ -26,19 +26,19 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *MENU LIST* 〕━━┈⊷
 ┃◈╭─────────────·
-┃◈┃• AIMENU
-┃◈┃• ANMIEMENU
-┃◈┃• CONVERTMENU
-┃◈┃• FUNMENU
-┃◈┃• DLMENU
-┃◈┃• LISTCMD
-┃◈┃• MAINMENU
-┃◈┃• GROUPMENU
-┃◈┃• ALLMENU
-┃◈┃• OWNERMENU
-┃◈┃• OTHERMENU
-┃◈┃• LOGO <𝒕𝒆𝒙𝒕>
-┃◈┃• REPO
+┃◈┃• 𝗔𝗜𝗠𝗘𝗡𝗨
+┃◈┃• 𝗔𝗡𝗠𝗜𝗘𝗠𝗘𝗡𝗨
+┃◈┃• 𝗖𝗢𝗡𝗩𝗘𝗥𝗧𝗠𝗘𝗡𝗨
+┃◈┃• 𝗙𝗨𝗡𝗠𝗘𝗡𝗨
+┃◈┃• 𝗗𝗟𝗠𝗘𝗡𝗨
+┃◈┃• 𝗟𝗜𝗦𝗧𝗖𝗠𝗗
+┃◈┃• 𝗠𝗔𝗜𝗡𝗠𝗘𝗡𝗨
+┃◈┃• 𝗚𝗥𝗢𝗨𝗣𝗠𝗘𝗡𝗨
+┃◈┃• 𝗔𝗟𝗟𝗠𝗘𝗡𝗨
+┃◈┃• 𝗢𝗪𝗡𝗘𝗥𝗠𝗘𝗡𝗨
+┃◈┃• 𝗢𝗧𝗛𝗘𝗥𝗠𝗘𝗡𝗨
+┃◈┃• 𝗟𝗢𝗚𝗢 <𝙩𝙚𝙭𝙩>
+┃◈┃• 𝗥𝗘𝗣𝗢
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -46,7 +46,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg` },
+                image: { url: `https://i.ibb.co/Nn3p4CYn/mrfrankofc.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -54,7 +54,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: 'CASEYRHODES-XMD💖🦄',
+                        newsletterName: '𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦-𝗫𝗠𝗗🫅💖🦄',
                         serverMessageId: 143
                     }
                 }
