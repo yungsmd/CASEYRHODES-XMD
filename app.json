@@ -2,9 +2,13 @@
   "name": "CASEYRHODES-XMD",
   "description": "Javascript WhatsApp bot made by CASEYRHODES.",
   "keywords": ["CASEYRHODES-XMD"],
-  "success_url": "https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg",
+  
+    ],
+  "logo": "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg",
+  "repository": "https://github.com/caseyweb/NHEZHO-MD",
+  "succes_url": "/",
 
-    "stack": "container",
+  "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
