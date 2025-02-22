@@ -37,7 +37,7 @@ const axios = require("axios");
 // temporary songs downloader
 
 cmd({
-  pattern: "play",
+  pattern: "play2",
   react: '🎵',
   desc: "Download audio from YouTube by searching for keywords (using API 2).",
   category: "music",
