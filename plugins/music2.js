@@ -86,7 +86,7 @@ cmd({
 //&&&&&-------&&
 
 cmd({
-  pattern: "song4",
+  pattern: "video1",
   react: '🎵',
   desc: "Download audio from YouTube by searching for keywords (using API 2).",
   category: "music",
@@ -121,7 +121,7 @@ cmd({
     // Send the audio file
     await conn.sendMessage(from, {
       audio: { url: download_url },
-      mimetype: 'audio/mp4',
+      mimetype: 'video/mp4',
       ptt: false
     }, { quoted: mek });
 
