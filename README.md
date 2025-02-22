@@ -19,7 +19,7 @@
 
 # CASEYRHODES BOTZ INC.❤️
 
-[![Sponsor Caseyrhodes](https://img.shields.io/badge/Sponsor-caseyweb-important)](https://github.com/sponsors/SilvaTechB)
+[![Sponsor Caseyrhodes](https://img.shields.io/badge/Sponsor-caseyweb-important)](https://github.com/sponsors/caseyweb)
 
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 
 <p align="center">
-<a href="https://github.com/caseyweb"><img title="Author" src="https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/caseyweb"><img title="Author" src="https://i.ibb.co/W481BYSY/mrfrankofc.jpg?style=for-the-badge&logo=github"></a>
 
 
 
