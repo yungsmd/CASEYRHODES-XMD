@@ -48,7 +48,7 @@
  <p align="center"><img src="https://profile-counter.glitch.me/{CASEYRHODES-XMD}/count.svg" alt="SilvaTechB :: Visitor's Count" /></p>
 
 <p align="center">
-<a href="https://github.com/caseuweb/CASEYRHODES-XMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=blue"></a> &nbsp;
+<a href="https://github.com/caseyweb/CASEYRHODES-XMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=blue"></a> &nbsp;
   <img src="https://komarev.com/ghpvc/?username=CASEYRHODES XMD&label=VIEWS&style=flat-square&color=purple" />
 </p>
 
@@ -68,7 +68,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 You will need a session ID to run CASEYRHODES XMD. Click the button below to obtain your session ID:
 
-<a href='https://caseypair-xpno.onrender.com/' target="_blank">
+<a href='https://caseypair-0fa4.onrender.com' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Session%20ID-purple?style=for-the-badge&logo=whatsapp&logoColor=white'/>
 </a>
 <br>
