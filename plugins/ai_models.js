@@ -29,8 +29,8 @@ const axios = require("axios");
 const { cmd } = require("../command");
 
 cmd({
-    pattern: "gpt",
-    alias: "ai",
+    pattern: "gpt2",
+    alias: "ai2",
     desc: "Interact with ChatGPT using the Dreaded API.",
     category: "ai",
     react: "🤖",
