@@ -25,7 +25,7 @@
     "LIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": false,
-      "value": "> CASEYRHODES-XMD IS SPARKING ACTIVE AND ALIVE⚡"
+      "value": "> CASEYRHODES-XMD IS ACTIVE AND ALIVE⚡"
     },
     
     "PREFIX": {
@@ -82,13 +82,13 @@
     "AUTO_STATUS__MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*🎉👀 Seen and liked by CASEYRHODES-XMD🚀🔥*"
+      "value": "*🎉👀 sᴇᴇɴ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ🚀🔥*"
     }, 
 
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "CASEYRHODES"
+      "value": "ᴄᴀsᴇʏʀʜᴏᴅᴇs 🫅"
 }, 
 
     "OWNER_NUMBER": {
@@ -101,7 +101,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "✦ CASEYRHODES ✦ XMD ✦"
+      "value": "✦ ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ✦"
 
       }, 
 
@@ -121,7 +121,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ✦ CASEYRHODES ✦ XMD ✦*"
+      "value": "*© ✦ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ✦*"
     },
 
       "DELETE_LINKS": {
@@ -139,7 +139,7 @@
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
 
     "AUTO_REACT": {
