@@ -45,8 +45,6 @@
 [![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{CASEYRHODES-XMD}/count.svg" alt="caseyweb :: Visitor's Count" /></p>
-
 <p align="center">
 <a href="https://github.com/caseyweb/CASEYRHODES-XMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=blue"></a> &nbsp;
   <img src="https://komarev.com/ghpvc/?username=CASEYRHODES XMD&label=VIEWS&style=flat-square&color=purple" />
