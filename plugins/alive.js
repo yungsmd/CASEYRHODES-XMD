@@ -7,7 +7,8 @@ Github: caseyweb
 
 
 const { cmd } = require("../command");
-const moment = require("moment");
+const os = require("os");
+const { runtime } = require('../lib/functions');
 
 let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
 const ALIVE_IMG = "https://i.ibb.co/Jb6RTqz/mrfrankofc.jpg"; // Assurez-vous que cette URL est valide
