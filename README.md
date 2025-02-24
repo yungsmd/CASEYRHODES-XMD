@@ -37,7 +37,7 @@
 ***
 
 <p align="center">
-  <a href="https://github.com/caseyweb"><img title="Developer" src="https://img.shields.io/badge/Author-Silva%20TechB-purple.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/caseyweb"><img title="Developer" src="https://img.shields.io/badge/Author-casey%20web-purple.svg?style=for-the-badge&logo=github" /></a>
 </p>
 
 <div align="center">
@@ -45,7 +45,7 @@
 [![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{CASEYRHODES-XMD}/count.svg" alt="SilvaTechB :: Visitor's Count" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{CASEYRHODES-XMD}/count.svg" alt="caseyweb :: Visitor's Count" /></p>
 
 <p align="center">
 <a href="https://github.com/caseyweb/CASEYRHODES-XMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=blue"></a> &nbsp;
@@ -62,7 +62,7 @@
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/caseyweb/CASEYRHODES-XMD/fork"><img title="silva-spark-md" src="https://img.shields.io/badge/FORK-CASEY%20RHODES%20XMD-h?color=purple&style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/caseyweb/CASEYRHODES-XMD/fork"><img title="CASEYRHODES-XMD" src="https://img.shields.io/badge/FORK-CASEY%20RHODES%20XMD-h?color=purple&style=for-the-badge&logo=github"></a>
 
 ### 2. Get Session ID
 
