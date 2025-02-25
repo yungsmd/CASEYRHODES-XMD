@@ -30,7 +30,7 @@
 
 
 <p align="center">
-<a href="https://github.com/caseyweb"><img title="Author" src="https://i.ibb.co/W481BYSY/mrfrankofc.jpg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/caseyweb"><img title="Author" src="https://files.catbox.moe/9l3w1g.jpg?style=for-the-badge&logo=github"></a>
 
 
 
@@ -66,7 +66,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 You will need a session ID to run CASEYRHODES XMD. Click the button below to obtain your session ID:
 
-<a href='https://caseypair-0fa4.onrender.com' target="_blank">
+<a href='https://caseypair-1-h9or.onrender.com/' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Session%20ID-purple?style=for-the-badge&logo=whatsapp&logoColor=white'/>
 </a>
 <br>
