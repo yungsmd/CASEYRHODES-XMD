@@ -50,7 +50,7 @@ cmd({
       return reply("*Please provide a song name or keywords to search for.*");
     }
 
-    reply("```...ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ ɪs sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ᴀᴜᴅɪᴏ ᴡᴀɪᴛ🔍```");
+    reply("```ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ ɪs sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ᴀᴜᴅɪᴏ ᴡᴀɪᴛ🔍...```");
 
     const searchResults = await yts(searchQuery);
     if (!searchResults.videos || searchResults.videos.length === 0) {
@@ -76,7 +76,7 @@ cmd({
       ptt: false
     }, { quoted: mek });
 
-    reply(`✅ *${title}* ʜᴀs ʙᴇᴇɴ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ!`);
+    reply(`✅ *${title}* ʜᴀs ʙᴇᴇɴ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ! ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴅᴍᴅ`);
   } catch (error) {
     console.error(error);
     reply("❌ An error occurred while processing your request.");
@@ -110,7 +110,7 @@ cmd({
     const videoUrl = firstResult.url;
 
     // Call the API to download the audio
-    const apiUrl = `https://apis.davidcyriltech.my.id/download/ytmp3?url=${videoUrl}`;
+    const apiUrl = `https://apis.davidcyriltech.my.id/download/ytmp4?url=${videoUrl}`;
     const response = await axios.get(apiUrl);
     if (!response.data.success) {
       return reply(`❌ Failed to fetch audio for "${searchQuery}".`);
