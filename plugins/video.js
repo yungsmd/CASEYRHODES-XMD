@@ -6,7 +6,7 @@ const { cmd, commands } = require('../command');
 const { fetchJson } = require('../lib/functions');
 
 cmd({
-  pattern: 'videopro',
+  pattern: 'video1',
   desc: 'Search and download YouTube videos',
   category: 'media',
   filename: __filename
@@ -42,7 +42,7 @@ cmd({
 
     if (!video) return reply(`*No video found for ${q}*`);
 
-    const apiUrl = `https://api.davidcyriltech.my.id/download/ytmp4`;
+    const apiUrl = `https://apis.davidcyriltech.my.id/download/ytmp4`;
     const apiResponse = await axios.get(apiUrl, { params: { url: video.url } });
 
     if (apiResponse.data.success) {
