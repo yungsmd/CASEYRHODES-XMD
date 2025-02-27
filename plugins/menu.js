@@ -103,7 +103,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• tt2
 ┃◈┃• audio
 ┃◈┃• video
-┃◈┃• video2
+┃◈┃• video1
 ┃◈┃• ytmp3
 ┃◈┃• ytmp4
 ┃◈┃• song
