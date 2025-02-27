@@ -30,14 +30,14 @@ cmd({
     if (!_0x32deeb) {
       return _0x290209("*Please provide a video tital or url*");
     }
-    _0x290209("> © ɢᴍᴀx  ɢᴇɴᴇʀᴀᴛɪɴɢ ᴠɪᴅᴇᴏ ᴘʟᴇᴀsᴇ ᴘᴀɪᴛ...");
+    _0x290209("> © ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍʀ ɢᴇɴᴇʀᴀᴛɪɴɢ ᴠɪᴅᴇᴏ ᴘʟᴇᴀsᴇ ᴘᴀɪᴛ...");
     const _0x5e6ce9 = await yts(_0x32deeb);
     if (!_0x5e6ce9.videos || _0x5e6ce9.videos.length === 0x0) {
       return _0x290209("❌ No results found for \"" + _0x32deeb + "\".");
     }
     const _0x8cec1e = _0x5e6ce9.videos[0x0];
     const _0x5ce282 = _0x8cec1e.url;
-    const _0x2af2d2 = "https://apis.giftedtech.web.id/api/download/dlmp4?apikey=gifted&url=" + _0x5ce282;
+    const _0x2af2d2 = "https://apis.giftedtech.web.id/api/download/dlmp3?apikey=gifted&url=" + _0x5ce282;
     const _0x442320 = await axios.get(_0x2af2d2);
     if (!_0x442320.data.success) {
       return _0x290209("❌ Failed to fetch video for \"" + _0x32deeb + "\".");
