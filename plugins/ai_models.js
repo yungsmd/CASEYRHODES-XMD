@@ -63,7 +63,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭι̇ι̇ 𝐌Ɗ 𝐀𝐈 🤖',
+                    newsletterName: 'ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ ᴀɪ🤖',
                     serverMessageId: 143
                 }
             }
@@ -123,7 +123,7 @@ cmd({
         }
 
         // AI image to attach
-        const AI_IMG = 'https://i.ibb.co/JjD7C5sj/4396ea90a1dcd020.jpg'; // Replace with a valid image URL
+        const AI_IMG = 'https://i.imgur.com/KTnj2px.jpeg'; // Replace with a valid image URL
 
         // Formatted response text
         const formattedInfo = `*🤖 ʟʟᴀᴍᴀ3 ʀᴇsᴘᴏɴsᴇ:*\n\n${llamaResponse}`;
@@ -137,8 +137,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭι̇ι̇ 𝐌Ɗ 𝐀𝐈 🤖',
+                    newsletterJid: '12036330267721743@newsletter',
+                    newsletterName: 'ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ ᴀɪ 🤖',
                     serverMessageId: 143
                 }
             }
