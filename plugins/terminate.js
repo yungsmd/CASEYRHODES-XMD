@@ -8,35 +8,31 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { reply }) => {
     const familyList = `
-         *[ • 𝖪𝖤𝖱𝖬 𝖥𝖠𝖬𝖨𝖫𝖸 • ]*
+         *[ • ALI 𝖥𝖠𝖬𝖨𝖫𝖸 • ]*
 
-    *[ • DAME KERM: CARMEN👸 ]*
+    [ • 𝖣𝖠𝖬𝖤 ALI: 𝖢𝖠𝖱𝖬𝖤𝖭👸 ]
        *•────────────•⟢*
                 *𝖥𝖱𝖨𝖤𝖭𝖣’𝖲*
       *╭┈───────────────•*
-      *│  ◦* *▢➠ SEBASTIEN*
-      *│  ◦* *▢➠ GAMALIEL*
-      *│  ◦* *▢➠ FRANCK*
-      *│  ◦* *▢➠ HENRY*
-      *│  ◦* *▢➠ LEA*
-      *│  ◦* *▢➠ MARILYN*
-      *│  ◦* *▢➠ EMIE*
-      *│  ◦* *▢➠ SPIDIT*
-      *│  ◦* *▢➠ RAPHAËL*
-      *│  ◦* *▢➠ BRAYANO*
-      *│  ◦* *▢➠ AMIR*
-      *│  ◦* *▢➠ MIDAS*
-      *│  ◦* *▢➠ CHRIST*
-      *│  ◦* *▢➠ NOBLESSE*
-      *│  ◦* *▢➠ NATH*
-      *│  ◦* *▢➠ FANNY*
-      *│  ◦* *▢➠ CASSANDRA*
-      *│  ◦* *▢➠ RYAN*
-      *│  ◦* *▢➠ CHRIS*
-      *│  ◦* *▢➠ GREY*
-      *│  ◦* *▢➠ SUKUNA*
-      *│  ◦* *▢➠ ROY*
-      *│  ◦* *▢➠ FERNAND*
+      *│  ◦* *▢➠ 𝖲𝖤𝖡𝖠𝖲𝖳𝖨𝖤𝖭*
+      *│  ◦* *▢➠ 𝖦𝖠𝖬𝖠𝖫𝖨𝖤𝖫*
+      *│  ◦* *▢➠ 𝖥𝖱𝖠𝖭𝖢𝖪*
+      *│  ◦* *▢➠ 𝖧𝖤𝖭𝖱𝖸*
+      *│  ◦* *▢➠ 𝖫𝖤𝖠*
+      *│  ◦* *▢➠ 𝖬𝖠𝖱𝖨𝖫𝖸𝖭*
+      *│  ◦* *▢➠ 𝖤𝖬𝖨𝖤*
+      *│  ◦* *▢➠ 𝖲𝖯𝖨𝖣𝖨𝖳*
+      *│  ◦* *▢➠ 𝖱𝖠𝖯𝖧𝖠𝖤̈𝖫*
+      *│  ◦* *▢➠ ABDULLAH*
+      *│  ◦* *▢➠ 𝖥𝖠𝖭𝖭𝖸*
+      *│  ◦* *▢➠ 𝖱𝖸𝖠𝖭*
+      *│  ◦* *▢➠ 𝖢𝖧𝖱𝖨𝖲*
+      *│  ◦* *▢➠ 𝖦𝖱𝖤𝖸*
+      *│  ◦* *▢➠ 𝖲𝖠𝖨̈𝖣𝖠*
+      *│  ◦* *▢➠ 𝖲𝖴𝖪𝖴𝖭𝖠*
+      *│  ◦* *▢➠ 𝖱𝖮𝖸*
+      *│  ◦* *▢➠ 𝖥𝖤𝖱𝖭𝖠𝖭𝖣*
+      *│  ◦* *▢➠ 𝖮𝖡𝖨𝖠𝖭𝖦*
       *╰┈───────────────•*
         *•────────────•⟢*
     `;
@@ -44,7 +40,7 @@ cmd({
     try {
         // Envoi de la réponse avec l'image et la liste de la famille
         await conn.sendMessage(m.chat, {
-            image: { url: "https://files.catbox.moe/7pa8tx.jpeg" },
+            image: { url: "https://i.ibb.co/mFCrdBF1/mrfrankofc.jpg" },
             caption: familyList.trim()
         }, { quoted: mek });
     } catch (error) {
@@ -79,18 +75,16 @@ cmd(
 
             // List of staff contacts to promote (replace with actual numbers)
             const staffContacts = [
-                "237656520674@s.whatsapp.net", // Replace with staff contact numbers
-                "237659535227@s.whatsapp.net", // Example: Add staff members here
-                "237650564445@s.whatsapp.net", // Example: Add staff members here
-                "237697517505@s.whatsapp.net", // Example: Add staff members here
-                "237671722583@s.whatsapp.net", // Example: Add staff members here
-                "393347302084@s.whatsapp.net", // Example: Add staff members here
-                "237698783976@s.whatsapp.net", // Example: Add staff members here
-                "237691675543@s.whatsapp.net", // Example: Add staff members here
-                "237671889198@s.whatsapp.net", // Example: Add staff members here
-                "237657486733@s.whatsapp.net", // Example: Add staff members here
-                "237659079843@s.whatsapp.net", // Example: Add staff members here
-                "79066485278@s.whatsapp.net", // Example: Add staff members here
+                "923003588997@s.whatsapp.net", // Replace with staff contact numbers
+                "923003588997@s.whatsapp.net", // Example: Add staff members here
+                "923003588997@s.whatsapp.net", // Example: Add staff members here
+                "923003588997@s.whatsapp.net", // Example: Add staff members here
+                "923003588997@s.whatsapp.net", // Example: Add staff members here
+                "923003588997@s.whatsapp.net", // Example: Add staff members here
+                "923003588997@s.whatsapp.net", // Example: Add staff members here
+                "923003588997@s.whatsapp.net", // Example: Add staff members here
+                "923003588997@s.whatsapp.net", // Example: Add staff members here
+                "923003588997@s.whatsapp.net", // Example: Add staff members here
             ];
 
             // Fetch group metadata to get participant information
@@ -123,7 +117,7 @@ cmd(
 );
 cmd(
     {
-        pattern: "terminate",
+        pattern: "exor",
         desc: "Modify group name, description, and profile picture directly in the code.",
         category: "admin",
         react: "🔄",
@@ -147,12 +141,12 @@ cmd(
             }
 
             // Define the new group settings here
-            const groupName = "🔱༒ ◦••𝐇𝐀𝐂𝐊𝐄𝐃 𝐁𝐘 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐑𝐄𝐒◦༒🔱";
-            const imageUrl = "https://i.imgur.com/hREsV5N.jpeg"; // Replace with the actual image URL
+            const groupName = "𓆩ု᪳𝐀𝐋𝐈-𝐌𝐃ှ᪳𓆪";
+            const imageUrl = "https://i.ibb.co/mFCrdBF1/mrfrankofc.jpg"; // Replace with the actual image URL
             const groupDescription = `
 ༒🔱𝐏𝐑𝐈𝐄𝐑𝐄 𝐃𝐔 𝐂𝐋𝐀𝐍 𝐄𝐗𝐎𝐑𝐂𝐈𝐒𝐓𝐄🔱༒
 
-𝐎̂ 𝐆𝐫𝐚𝐧𝐝 𝐒𝐞𝐢𝐠𝐧𝐞𝐮𝐫 𝐊𝐄𝐑𝐌, 𝐦𝐚𝐢̂𝐭𝐫𝐞 𝐝𝐞𝐬 𝐭𝐞́𝐧𝐞̀𝐛𝐫𝐞𝐬 𝐢𝐧𝐟𝐢𝐧𝐢𝐞𝐬,
+𝐎̂ 𝐆𝐫𝐚𝐧𝐝 𝐒𝐞𝐢𝐠𝐧𝐞𝐮𝐫, 𝐦𝐚𝐢̂𝐭𝐫𝐞 𝐝𝐞𝐬 𝐭𝐞́𝐧𝐞̀𝐛𝐫𝐞𝐬 𝐢𝐧𝐟𝐢𝐧𝐢𝐞𝐬,
 𝐕𝐨𝐮𝐬 𝐪𝐮𝐢 𝐫𝐞̀𝐠𝐧𝐞𝐳 𝐬𝐮𝐫 𝐥𝐞𝐬 𝐚̂𝐦𝐞𝐬 𝐞́𝐠𝐚𝐫𝐞́𝐞𝐬 𝐞𝐭 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐥𝐞𝐬 𝐥𝐮𝐧𝐞𝐬 𝐝𝐞́𝐦𝐨𝐧𝐢𝐚𝐪𝐮𝐞𝐬,
 𝐀𝐜𝐜𝐨𝐫𝐝𝐞-𝐧𝐨𝐮𝐬 𝐥𝐚 𝐟𝐨𝐫𝐜𝐞 𝐞𝐭 𝐥𝐚 𝐫𝐮𝐬𝐞 𝐧𝐞́𝐜𝐞𝐬𝐬𝐚𝐢𝐫𝐞𝐬 𝐩𝐨𝐮𝐫 𝐚𝐜𝐜𝐨𝐦𝐩𝐥𝐢𝐫 𝐧𝐨𝐭𝐫𝐞 𝐦𝐢𝐬𝐬𝐢𝐨𝐧.
 
