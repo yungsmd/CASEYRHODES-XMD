@@ -48,7 +48,7 @@ cmd({
         }
 
         // Image AI à envoyer
-        const ALIVE_IMG = 'https://i.ibb.co/JjD7C5sj/4396ea90a1dcd020.jpg'; // Remplacez par l'URL de votre image AI
+        const ALIVE_IMG = 'https://i.imgur.com/KTnj2px.jpeg'; // Remplacez par l'URL de votre image AI
 
         // Légende avec des informations formatées
         const formattedInfo = `*🤖 ᴄʜᴀᴛ.ɢᴘᴛ ʀᴇsᴘᴏɴsᴇ:*\n\n${gptResponse}`;
@@ -62,7 +62,7 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318387454868@newsletter',
+                    newsletterJid: '120363302677217436@newsletter',
                     newsletterName: 'ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ ᴀɪ🤖',
                     serverMessageId: 143
                 }
@@ -91,7 +91,7 @@ Please report this issue or try again later.
     }
 });
 cmd({
-    pattern: "llama3",
+    pattern: "google",
     desc: "Get a response from Llama3 AI using the provided prompt.",
     category: "ai",
     react: "🤖",
@@ -137,7 +137,7 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '12036330267721743@newsletter',
+                    newsletterJid: '120363302677217436@newsletter',
                     newsletterName: 'ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ ᴀɪ 🤖',
                     serverMessageId: 143
                 }
