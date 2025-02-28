@@ -1,24 +1,15 @@
-/* 
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +254112192119
-YT: caseyrhodes01
-Github: caseyweb 
-*/
-
 
 const { cmd } = require("../command");
-const os = require("os");
-const { runtime } = require('../lib/functions');
+const moment = require("moment");
 
 let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
-const ALIVE_IMG = "https://i.ibb.co/Jb6RTqz/mrfrankofc.jpg"; // Assurez-vous que cette URL est valide
+const ALIVE_IMG = "https://i.imgur.com/UwjNRU3.jpeg"; // Assurez-vous que cette URL est valide
 
 cmd({
     pattern: "alive",
-    alias: ["status", "runtime", "uptime"],
     desc: "Check if the bot is active.",
     category: "info",
-    react: "💡",
+    react: "🤖",
     filename: __filename
 }, async (conn, mek, m, { reply, from }) => {
     try {
@@ -33,14 +24,14 @@ cmd({
 
         const formattedInfo = `
 🌟 *CASEYRHODES XMD STATUS* 🌟
-Hi 🫵🏽 ${pushname}
+Hey 👋🏻 ${pushname}
 🕒 *Time*: ${currentTime}
 📅 *Date*: ${currentDate}
 ⏳ *Uptime*: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds
 
-🤖 *Status*: *Caseyrhodes xmd is Alive and Ready!*
+*🤖sᴛᴀᴛᴜs*: *ᴄᴀsᴇʏʀʜᴏᴅᴇs-xᴍᴅ ᴀʟɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ*
 
-🎉 *Enjoy the Service!*
+*🤍ᴍᴀᴅᴇ ᴡɪᴛʜ ʟᴏᴠᴇ*
         `.trim();
 
         // Vérifier si l'image est définie
@@ -57,25 +48,8 @@ Hi 🫵🏽 ${pushname}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363321386877609@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃 𝐀𝐋𝐈𝐕𝐄',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
-        
-        // Send the audio file with context info
-        await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/vhj9ps.mp3' },
-            mimetype: 'audio/mp4',
-            ptt: true,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃 𝐀𝐋𝐈𝐕𝐄',
+                    newsletterName: 'ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ 🍁',
                     serverMessageId: 143
                 }
             }
