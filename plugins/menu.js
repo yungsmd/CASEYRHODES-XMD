@@ -238,6 +238,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let dec = `╭━━〔 *Fun Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• insult
+┃◈┃• compatibility
+┃◈┃• aura
+┃◈┃• roast
+┃◈┃• compliment
+┃◈┃• lovetest
+┃◈┃• emoji
 ┃◈┃• pickup
 ┃◈┃• ship
 ┃◈┃• character
@@ -431,6 +437,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• jid
 ┃◈┃• casey
 ┃◈┃• tinyurl 
+┃◈┃• bibelist
 ┃◈┃• Terminate
 ┃◈┃• family 
 ┃◈┃• test
