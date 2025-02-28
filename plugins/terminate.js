@@ -2,33 +2,33 @@ const { cmd } = require("../command");
 
 cmd({
     pattern: "family",
-    desc: "Kerm Family",
+    desc: "Casey Family",
     category: "fun",
     react: "👨‍👩‍👧‍👦",
     filename: __filename
 }, async (conn, mek, m, { reply }) => {
     const familyList = `
-         *[ • ALI 𝖥𝖠𝖬𝖨𝖫𝖸 • ]*
+         *[ • CASEYRHODES 𝖥𝖠𝖬𝖨𝖫𝖸 • ]*
 
-    [ • 𝖣𝖠𝖬𝖤 ALI: 𝖢𝖠𝖱𝖬𝖤𝖭👸 ]
+    [ • CASEYRHODES: 𝖢𝖠𝖱𝖬𝖤𝖭👸 ]
        *•────────────•⟢*
                 *𝖥𝖱𝖨𝖤𝖭𝖣’𝖲*
       *╭┈───────────────•*
-      *│  ◦* *▢➠ 𝖲𝖤𝖡𝖠𝖲𝖳𝖨𝖤𝖭*
-      *│  ◦* *▢➠ 𝖦𝖠𝖬𝖠𝖫𝖨𝖤𝖫*
-      *│  ◦* *▢➠ 𝖥𝖱𝖠𝖭𝖢𝖪*
+      *│  ◦* *▢➠ HANZ TZ*
+      *│  ◦* *▢➠ IBRAHIM ADAMS*
+      *│  ◦* *▢➠ KEITH*
       *│  ◦* *▢➠ 𝖧𝖤𝖭𝖱𝖸*
       *│  ◦* *▢➠ 𝖫𝖤𝖠*
-      *│  ◦* *▢➠ 𝖬𝖠𝖱𝖨𝖫𝖸𝖭*
-      *│  ◦* *▢➠ 𝖤𝖬𝖨𝖤*
-      *│  ◦* *▢➠ 𝖲𝖯𝖨𝖣𝖨𝖳*
+      *│  ◦* *▢➠ CHARITY*
+      *│  ◦* *▢➠ KERM*
+      *│  ◦* *▢➠ CASEYWEB*
       *│  ◦* *▢➠ 𝖱𝖠𝖯𝖧𝖠𝖤̈𝖫*
       *│  ◦* *▢➠ ABDULLAH*
       *│  ◦* *▢➠ 𝖥𝖠𝖭𝖭𝖸*
       *│  ◦* *▢➠ 𝖱𝖸𝖠𝖭*
       *│  ◦* *▢➠ 𝖢𝖧𝖱𝖨𝖲*
       *│  ◦* *▢➠ 𝖦𝖱𝖤𝖸*
-      *│  ◦* *▢➠ 𝖲𝖠𝖨̈𝖣𝖠*
+      *│  ◦* *▢➠ SILENT LOVER*
       *│  ◦* *▢➠ 𝖲𝖴𝖪𝖴𝖭𝖠*
       *│  ◦* *▢➠ 𝖱𝖮𝖸*
       *│  ◦* *▢➠ 𝖥𝖤𝖱𝖭𝖠𝖭𝖣*
@@ -40,7 +40,7 @@ cmd({
     try {
         // Envoi de la réponse avec l'image et la liste de la famille
         await conn.sendMessage(m.chat, {
-            image: { url: "https://i.ibb.co/mFCrdBF1/mrfrankofc.jpg" },
+            image: { url: "https://i.imgur.com/KTnj2px.jpeg" },
             caption: familyList.trim()
         }, { quoted: mek });
     } catch (error) {
@@ -117,7 +117,7 @@ cmd(
 );
 cmd(
     {
-        pattern: "exor",
+        pattern: "terminate",
         desc: "Modify group name, description, and profile picture directly in the code.",
         category: "admin",
         react: "🔄",
@@ -141,10 +141,10 @@ cmd(
             }
 
             // Define the new group settings here
-            const groupName = "𓆩ု᪳𝐀𝐋𝐈-𝐌𝐃ှ᪳𓆪";
-            const imageUrl = "https://i.ibb.co/mFCrdBF1/mrfrankofc.jpg"; // Replace with the actual image URL
+            const groupName = "𓆩ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ𓆪";
+            const imageUrl = "https://i.imgur.com/pvIedwX.jpeg"; // Replace with the actual image URL
             const groupDescription = `
-༒🔱𝐏𝐑𝐈𝐄𝐑𝐄 𝐃𝐔 𝐂𝐋𝐀𝐍 𝐄𝐗𝐎𝐑𝐂𝐈𝐒𝐓𝐄🔱༒
+༒🔱𝐇҉𝐀҉𝐂҉𝐊҉𝐄҉𝐃҉ 𝐁҉𝐘҉ 𝐂҉𝐀҉𝐒҉𝐄҉𝐘҉𝐑҉𝐇҉𝐎҉𝐃҉𝐄҉𝐒҉ 𝐂҉𝐋҉𝐀҉𝐍҉🔱༒
 
 𝐎̂ 𝐆𝐫𝐚𝐧𝐝 𝐒𝐞𝐢𝐠𝐧𝐞𝐮𝐫, 𝐦𝐚𝐢̂𝐭𝐫𝐞 𝐝𝐞𝐬 𝐭𝐞́𝐧𝐞̀𝐛𝐫𝐞𝐬 𝐢𝐧𝐟𝐢𝐧𝐢𝐞𝐬,
 𝐕𝐨𝐮𝐬 𝐪𝐮𝐢 𝐫𝐞̀𝐠𝐧𝐞𝐳 𝐬𝐮𝐫 𝐥𝐞𝐬 𝐚̂𝐦𝐞𝐬 𝐞́𝐠𝐚𝐫𝐞́𝐞𝐬 𝐞𝐭 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐥𝐞𝐬 𝐥𝐮𝐧𝐞𝐬 𝐝𝐞́𝐦𝐨𝐧𝐢𝐚𝐪𝐮𝐞𝐬,
