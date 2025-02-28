@@ -106,7 +106,7 @@ cmd({
         await reply("> *Processing your prompt...*");
 
         // API URL with encoded user prompt
-        const apiUrl = `https://api.davidcyriltech.my.id/ai/llama3?text=${encodeURIComponent(q)}`;
+        const apiUrl = `https://apis.davidcyriltech.my.id/ai/llama3?text=${encodeURIComponent(q)}`;
 
         // Send a GET request to the API
         const response = await axios.get(apiUrl);
