@@ -16,16 +16,16 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *ALI*
+*|* *CASEYWEB*
 
-> *ALI-MD-V1 REPO:*
-*|* https://github.com/itx-alii-raza/ALI-MD
+> *CASEYWEB REPO:*
+*|* https://github.com/caseyweb/CASEYRHODES XMD
 
 > *SUPPORT GROUP:*
 *|* https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h
 *╰──────────────●●►*
 
-> *CREATED BY ALI TECH*
+> *CREATED BY CASEYRHODES TECH*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
@@ -70,7 +70,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/itx-alii-raza/ALI-MD';
+    const githubRepoURL = 'https://github.com/caseyweb/CASEYRHODES-XMD';
 
     try {
         // Extract username and repo name from the URL
@@ -86,11 +86,11 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐀𝐋𝐈-𝐌𝐃 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
+        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
 
-> *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, ᴋᴇʀᴍ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.*❄️
+> *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.*❄️
 
-*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 𝐀𝐋𝐈-𝐌𝐃🫶* 
+*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃🫶* 
 
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
@@ -112,7 +112,7 @@ ${readMore}
 \`DESCRIPTION:\`📃
 > ${repoData.description || 'No description'}\n
 ──────────────────
-\n> *© POWERED BY ALI* 🎐`;
+\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ* 🎐`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
@@ -123,8 +123,8 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '☇ 𝐀ɭι̇ι̇ 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterJid: '120363302677217436@newsletter',
+                    newsletterName: '☇ cαsєчrhσdєs suppσrt  ⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
@@ -140,8 +140,8 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '☇ 𝐀ɭι̇ι̇ 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterJid: '120363302677217436@newsletter',
+                    newsletterName: '☇ cαsєчrhσdєs suppσrt⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
