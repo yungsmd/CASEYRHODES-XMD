@@ -1,154 +1,70 @@
-
-
-/*
-const config = require('../config')
-const {cmd , commands} = require('../command')
-cmd({
-    pattern: "script",
-    alias: ["sc","repo","info"],
-    desc: "bot repo",
-    react: "🤖",
-    category: "main",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-let repo =`
-*╭──────────────●●►*
-> *BOT OWNER:*
-*|* *ALI*
-
-> *ALI-MD-V1 REPO:*
-*|* https://github.com/itx-alii-raza/ALI-MD
-
-> *SUPPORT GROUP:*
-*|* https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h
-*╰──────────────●●►*
-
-> *CREATED BY ALI TECH*
-`
-await conn.sendMessage(from, { text: repo ,
-  contextInfo: {
-    mentionedJid: [ '' ],
-    groupMentions: [],
-    forwardingScore: 999,
-    isForwarded: false,
-    forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363318387454868@newsletter',
-      newsletterName: "𝐀ɭι̇ι̇ 𝐌Ɗ 🍁",
-      serverMessageId: 999
-    },
-externalAdReply: { 
-title: '𝐀ɭι̇ι̇ 𝐌Ɗ 🍁',
-body: `${pushname}`,
-mediaType: 1,
-sourceUrl: "https://github.com/itx-alii-raza/ALI-MD" ,
-thumbnailUrl: "https://i.ibb.co/8Dzbtwj2/mrfrankofc.jpg" ,
-renderLargerThumbnail: true,
-showAdAttribution: true
-}
-}}, { quoted: mek})}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-});
-*/
-
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
-
-const fetch = require('node-fetch');
-const config = require('../config');    
+const axios = require('axios');
 const { cmd } = require('../command');
 
+// Repo info
 cmd({
-    pattern: "script",
-    alias: ["repo", "sc", "info"],
-    desc: "Fetch information about a GitHub repository.",
-    react: "🎗️",
-    category: "info",
-    filename: __filename,
+    pattern: "repo",
+    alias: ["sc", "script", "info"],
+    desc: "Info about the bot repository",
+    category: "main",
+    react: "👨‍💻",
+    filename: __filename
 },
-async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/caseyweb/CASEYRHODES-XMD';
-
+async (conn, mek, m, { from, quoted, reply }) => {
     try {
-        // Extract username and repo name from the URL
-        const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
+        // Fetch repository data from GitHub API
+        const repoResponse = await axios.get('https://api.github.com/repos/caseyweb/CASEYRHODES-XMD');
+        const { stargazers_count, forks_count } = repoResponse.data;
+        const userCount = forks_count * 5; // Estimate user count based on forks
 
-        // Fetch repository details using GitHub API
-        const response = await fetch(`https://api.github.com/repos/${username}/${repoName}`);
-        
-        if (!response.ok) {
-            throw new Error(`GitHub API request failed with status ${response.status}`);
-        }
+        // Construct the message
+        const message = `
+*Hello there, caseyrhodes xmd User! 👋*
 
-        const repoData = await response.json();
+💻 *𝑪𝑨𝑺𝑬𝒀𝑹𝑯𝑶𝑫𝑬𝑺-𝑿𝑴𝑫 Repository Info*:
+⭐ *Stars*: ${stargazers_count}
+🍴 *Forks*: ${forks_count}
+👥 *Users*: ${userCount}
+🔗 *Repository*: https://github.com/caseyweb/CASEYRHODES-XMD
+> ✨ 𝑪𝑨𝑺𝑬𝒀𝑹𝑯𝑶𝑫𝑬𝑺-𝑿𝑴𝑫 WhatsApp Bot – Simple. Smart. Feature-packed. 🚀
+Effortlessly elevate your WhatsApp experience with our cutting-edge bot technology! 🎊
+*💡 Tip: Don’t forget to fork the repo and leave a star to show your support! 🌟*
 
-        // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
+🙌 Thank you for choosing ℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊-𝕏𝕄𝔻 – your ultimate bot companion! 🎉
+        `;
 
-> *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.*❄️
+        // Send the repository info as a text message
+        await conn.sendMessage(from, { text: message }, { quoted: mek });
 
-*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃🫶* 
-
-> *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
-
-https://github.com/itx-alii-raza/ALI-MD
-──────────────────
-${readMore}
-\`BOT NAME:\`❄️
-> ${repoData.name}
-
-\`OWNER NAME:\`👨‍💻
-> ${repoData.owner.login}
-
-\`STARS:\`🌟
-> ${repoData.stargazers_count}
-
-\`FORKS:\`🍴
-> ${repoData.forks_count}
-
-\`DESCRIPTION:\`📃
-> ${repoData.description || 'No description'}\n
-──────────────────
-\n> *© POWERED BY 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒* 🎐`;
-
-        // Send an image with the formatted info as a caption and context info
-        await conn.sendMessage(from, {
-            image: { url: `https://i.imgur.com/KTnj2px.jpeg` },
-            caption: formattedInfo,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '☇ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇  ⃪🤖͎᪳᪳𝆺𝅥',
-                    serverMessageId: 143
+        // Send a related image with additional newsletter forwarding context
+        await conn.sendMessage(
+            from,
+            {
+                image: { url: `https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg` },
+                caption: message,
+                contextInfo: {
+                    mentionedJid: [m.sender],
+                    forwardingScore: 999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterName: 'ℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊-𝕏𝕄𝔻 💖🦄',
+                        serverMessageId: 143
+                    }
                 }
-            }
-        }, { quoted: mek });
+            },
+            { quoted: mek }
+        );
 
-        // Send the audio file with context info
+        // Send an audio response (PTT voice note)
         await conn.sendMessage(from, {
-            audio: { url: 'https://cdn.ironman.my.id/i/wp4a7x.mp4' },
+            audio: { url: 'https://files.catbox.moe/1espb5.mp3' },
             mimetype: 'audio/mp4',
-            ptt: true,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '☇  𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇 ⃪🤖͎᪳᪳𝆺𝅥',
-                    serverMessageId: 143
-                }
-            }
+            ptt: true
         }, { quoted: mek });
 
     } catch (error) {
-        console.error("Error in repo command:", error);
-        reply("Sorry, something went wrong while fetching the repository information. Please try again later.");
+        console.error('Error fetching repository data:', error);
+        reply(`❌ *Error fetching repository data:* ${error.message}`);
     }
 });
