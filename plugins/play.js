@@ -55,7 +55,7 @@ cmd({
   }
 });
 cmd({
-  'pattern': 'play',
+  'pattern': 'mp3',
   'alias': ["song3", 'ytplay3'],
   'react': '🔄',
   'desc': "Download audio from YouTube by searching for keywords.",
