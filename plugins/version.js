@@ -53,7 +53,7 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/itx-alii-raza/ALI-MD';
+    const githubRepo = 'https://github.com/caseyweb/CASEYRHODES-XMD';
 
     // Check update status
     let updateMessage = `*✅ ʏᴏᴜʀ ᴄᴀsᴇʏʀʜᴏᴅᴇs-xᴍᴅ ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ!*`;
