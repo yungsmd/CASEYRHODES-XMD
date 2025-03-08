@@ -46,7 +46,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/zh3QjTp4/lordcasey.jpg` },
+                image: { url: `https://i.ibb.co/1YCH2Dd9/lordcasey.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -125,7 +125,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/zh3QjTp4/lordcasey.jpg` },
+                image: { url: `https://i.ibb.co/1YCH2Dd9/lordcasey.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
