@@ -528,7 +528,7 @@ console.log("Session downloaded ✅")
   
   if(senderNumber.includes("254112192119")){
   if(isReact) return
-  m.react("💕")
+  m.react("👻")
   }
   
   //==========public react============//
