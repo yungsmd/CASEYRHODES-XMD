@@ -8,17 +8,17 @@ cmd({
     pattern: "menu",
     desc: "menu the bot",
     category: "menu",
-    react: "💖",
+    react: "🐇",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━━〔 *𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗫𝗠𝗗* 〕━━━┈⊷
+        let dec = `╭━━━〔 *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃* 〕━━━┈⊷
 ┃❍⁠⁠⁠⁠╭──────────────
 ┃❍⁠⁠⁠⁠│ *Usᴇʀ* : ${config.OWNER_NAME}
-┃❍⁠⁠⁠⁠│ *ʙᴀɪʟᴇʏs* : Multi Device
-┃❍⁠⁠⁠⁠│ *ᴛʏᴘᴇ* : NodeJs
-┃❍⁠⁠⁠⁠│ *ᴘʟᴀᴛғᴏʀᴍ* : Heroku
+┃❍⁠⁠⁠⁠│ *ʙᴀɪʟᴇʏs* : 𝐌𝐮𝐥𝐭𝐢 𝐝𝐞𝐯𝐢𝐜𝐞
+┃❍⁠⁠⁠⁠│ *ᴛʏᴘᴇ* : 𝐍𝐨𝐝𝐞𝐣𝐬
+┃❍⁠⁠⁠⁠│ *ᴘʟᴀᴛғᴏʀᴍ* : 𝐇𝐞𝐫𝐨𝐤𝐮
 ┃❍⁠⁠⁠⁠│ *ᴍᴏᴅᴇ* : [${config.MODE}]
 ┃❍⁠⁠⁠⁠│ *ᴘʀᴇғɪx* : [${config.PREFIX}]
 ┃❍⁠⁠⁠⁠│ *ᴠᴇʀsɪᴏɴ* : 1.0.0
@@ -26,20 +26,20 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *𝗠𝗘𝗡𝗨𝗟𝗜𝗦𝗧* 〕━━┈⊷
 ┃❍╭─────────────·
-┃❍┃• *𝙰𝙸𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙰𝙽𝙸𝙼𝙴𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙵𝚄𝙽𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙳𝙻𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙻𝙸𝚂𝚃𝙲𝙼𝙳*
-┃❍┃• *𝙼𝙰𝙸𝙽𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙶𝚁𝙾𝚄𝙿𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙰𝙻𝙻𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙱𝙸𝙱𝙻𝙴𝙻𝙸𝚂𝚃*
-┃❍┃• *𝙾𝚆𝙽𝙴𝚁𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙾𝚃𝙷𝙴𝚁𝙼𝙴𝙽𝚄*
-┃❍┃• *𝙻𝙾𝙶𝙾 <𝙩𝙚𝙭𝙩>*
-┃❍┃• *𝚁𝙴𝙿𝙾*
+┃❍┃• *αímєnu*
+┃❍┃• *αnímєmєnu*
+┃❍┃• *cσnvєrtmєnu*
+┃❍┃• *funmєnu*
+┃❍┃• *dlmєnu*
+┃❍┃• *lístmєnu*
+┃❍┃• *mαínmєnu*
+┃❍┃• *grσupmєnu*
+┃❍┃• *αllmєnu*
+┃❍┃• *вíвlєmєnu*
+┃❍┃• *σwnєrmєnu*
+┃❍┃• *σthєrmєnu*
+┃❍┃• *lσgσ <𝙩𝙚𝙭𝙩>*
+┃❍┃• *rєpσ*
 ┃❍└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
