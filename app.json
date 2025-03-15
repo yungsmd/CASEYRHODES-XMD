@@ -96,13 +96,6 @@
       "required": false,
       "value": "254112192119"
  },
-    
-    "ANTI_DEL_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat",
-      "required": false,
-      "value": "same"
-
-    }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
