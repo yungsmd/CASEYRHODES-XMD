@@ -95,6 +95,12 @@
       "description": "put the owner number for bot.",
       "required": false,
       "value": "254112192119"
+ },
+    
+    "ANTI_DEL_PATH": {
+      "description": "change it to -same- if you want to resend deleted message in same chat",
+      "required": false,
+      "value": "same"
 
     }, 
 
