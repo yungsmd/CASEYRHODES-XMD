@@ -20,27 +20,27 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const usedMem = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2); // Used RAM in MB
 
         // Stylish and detailed system status message
-        const status = `╭───❰ CASEYRHODES-𝑴𝑫 ❱───➤
+        const status = `╭───❰ *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃* ❱───➤
 ┃ ✨ 𝗨𝗽𝘁𝗶𝗺𝗲: *${runtime(process.uptime())}*
 ┃ 💾 𝗥𝗮𝗺 𝗨𝘀𝗮𝗴𝗲: *${usedMem}MB / ${totalMem}MB*
 ┃ 🧑‍💻 𝗗𝗲𝗽𝗹𝗼𝘆𝗲𝗱 𝗢𝗻: *${platform}*
 ┃ 🔧 𝗖𝗣𝗨: *${cpuModel}*
-┃ 👨‍💻 𝗢𝘄𝗻𝗲𝗿: *𝗠𝗿 Caseyrhodes*
+┃ 👨‍💻 𝗢𝘄𝗻𝗲𝗿: *mr cαѕєчrhσdєѕ*
 ┃ 🧬 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: *𝟯.𝟬.𝟬 𝗕𝗘𝗧𝗔*
 ╰───────────────────────➤
-💥 𝗣𝗼𝘄𝗲𝗿𝗲𝗗 𝗕𝗬: 𝗠𝗿 𝗦𝗵𝗮𝗯𝗮𝗻`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs`;
 
         // Send image + caption + audio combined
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/tasodv.jpg` },  
+            image: { url: `https://i.ibb.co/wN6Gw0ZF/lordcasey.jpg` },  
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363358310754973@newsletter',
-                    newsletterName: 'SʜᴀʙᴀɴMᴅ',
+                    newsletterJid: '120363302677217436@newsletter',
+                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐀𝐋𝐈𝐕𝐄🍀',
                     serverMessageId: 143
                 }
             }
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Attach audio within the same "quoted" message for grouping
         await conn.sendMessage(from, { 
-            audio: { url: 'https://github.com/MRSHABAN40/SHABAN-MD_DATABASE/raw/refs/heads/main/Menu_Data/alive.mp3' },
+            audio: { url: 'https://files.catbox.moe/3au05j.m4a' },
             mimetype: 'audio/mp4',
             ptt: true 
         }, { quoted: mek });
