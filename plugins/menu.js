@@ -24,8 +24,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃❍⁠⁠⁠⁠│ *ᴠᴇʀsɪᴏɴ* : 1.0.0
 ┃❍⁠⁠⁠⁠╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *𝗠𝗘𝗡𝗨𝗟𝗜𝗦𝗧* 〕━━┈⊷
+╭━━〔 *𝐌𝐄𝐍𝐔𝐋𝐈𝐒𝐓* 〕━━┈⊷
 ┃❍╭─────────────·
+┃❍┃• *qurαnmєnu*
 ┃❍┃• *αímєnu*
 ┃❍┃• *αnímєmєnu*
 ┃❍┃• *cσnvєrtmєnu*
@@ -35,7 +36,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃❍┃• *mαínmєnu*
 ┃❍┃• *grσupmєnu*
 ┃❍┃• *αllmєnu*
-┃❍┃• *вíвlєmєnu*
+┃❍┃• *вíвlєlíѕt*
 ┃❍┃• *σwnєrmєnu*
 ┃❍┃• *σthєrmєnu*
 ┃❍┃• *lσgσ <𝙩𝙚𝙭𝙩>*
@@ -55,7 +56,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: '𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦-𝗫𝗠𝗗🫅💖🦄',
+                        newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃🫅🦄👻',
                         serverMessageId: 143
                     }
                 }
