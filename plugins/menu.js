@@ -105,10 +105,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• play3
 ┃◈┃• tt2
 ┃◈┃• audio
+┃◈┃• playx
 ┃◈┃• video
 ┃◈┃• video1
 ┃◈┃• ytmp3
 ┃◈┃• ytmp4
+┃◈┃• pdf
+┃◈┃• sss
 ┃◈┃• song
 ┃◈┃• darama
 ┃◈┃• git
