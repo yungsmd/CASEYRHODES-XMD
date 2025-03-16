@@ -82,6 +82,7 @@
         "nima-wabeta-info": "1.0.5",
         "node-fetch": "^2.6.1",
         "pastebin-js": "latest",
+        "pdfkit": "^0.14.0",
         "path": "^0.12.7",
         "pino": "^9.5.0",
         "pm2": "^5.4.3",
