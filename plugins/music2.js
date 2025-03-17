@@ -3,7 +3,7 @@ const yts = require("yt-search");
 const axios = require("axios");
 
 cmd({
-  pattern: "playx",
+  pattern: "play",
   alias: ["yt", "song", "video", "audio"],
   desc: "Download YouTube videos",
   category: "download",
@@ -33,7 +33,7 @@ cmd({
     }
 
     // Fetch download link from API
-    const { data } = await axios.get(`https://api.siputzx.my.id/api/d/ytmp4?url=${videoUrl}`);
+    const { data } = await axios.get(`https://apis.davidcyriltech.my.id/download/ytmp4?url=${videoUrl}`);
     if (!data.status) return reply("*Failed to fetch video!*");
 
     const ytData = searchData || {
