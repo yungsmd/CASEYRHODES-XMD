@@ -33,7 +33,7 @@ cmd({
     }
 
     // Fetch download link from API
-    const { data } = await axios.get(`https://apis.giftedtech.web.id/api/download/dlmp4?url=${videoUrl}`);
+    const { data } = await axios.get(`https://apis.giftedtech.web.id/api/download/dlmp4?apikey=gifted&url=${videoUrl}`);
     if (!data.status) return reply("*Failed to fetch video!*");
 
     const ytData = searchData || {
