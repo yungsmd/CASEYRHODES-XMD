@@ -67,7 +67,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/7puxww.mp3' },
+            audio: { url: 'https://files.catbox.moe/n8dydc.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
@@ -446,6 +446,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• casey
 ┃◈┃• tinyurl 
 ┃◈┃• bibelist
+┃◈┃• get
 ┃◈┃• Terminate
 ┃◈┃• family 
 ┃◈┃• test
