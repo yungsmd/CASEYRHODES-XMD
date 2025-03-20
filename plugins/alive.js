@@ -20,14 +20,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const usedMem = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2); // Used RAM in MB
 
         // Stylish and detailed system status message
-        const status = `╭───❰ *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃* ❱───➤
-┃ ✨ 𝗨𝗽𝘁𝗶𝗺𝗲: *${runtime(process.uptime())}*
-┃ 💾 𝗥𝗮𝗺 𝗨𝘀𝗮𝗴𝗲: *${usedMem}MB / ${totalMem}MB*
-┃ 🧑‍💻 𝗗𝗲𝗽𝗹𝗼𝘆𝗲𝗱 𝗢𝗻: *${platform}*
-┃ 🔧 𝗖𝗣𝗨: *${cpuModel}*
-┃ 👨‍💻 𝗢𝘄𝗻𝗲𝗿: *mr cαѕєчrhσdєѕ*
-┃ 🧬 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: *𝟯.𝟬.𝟬 𝗕𝗘𝗧𝗔*
-╰───────────────────────➤
+        const status = `╭───❰ *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃* ❱──┈⊷
+┃ ✨ 𝖴ᴘᴛɪᴍᴇ: *${runtime(process.uptime())}*
+┃ 💾 𝖱ᴀᴍ ᴜsᴀɢᴇ: *${usedMem}MB / ${totalMem}MB*
+┃ 🧑‍💻 𝖣ᴇᴘʟᴏʏᴇᴅ ᴏɴ: *${platform}*
+┃ 🔧 𝖢ᴘᴜ: *${cpuModel}*
+┃ 👨‍💻 𝖮ᴡɴᴇʀ: *𝖬ʀ ᴄᴀsᴇʏʀʜᴏᴅᴇs*
+┃ 🧬 𝖵ᴇʀsɪᴏɴ: *𝟣.𝟢.𝟢 𝖡𝖤𝖳𝖠*
+╰──────────────────────┈⊷
 > ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs`;
 
         // Send image + caption + audio combined
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Attach audio within the same "quoted" message for grouping
         await conn.sendMessage(from, { 
-            audio: { url: 'https://files.catbox.moe/3au05j.m4a' },
+            audio: { url: 'https://files.catbox.moe/5df4ei.m4v' },
             mimetype: 'audio/mp4',
             ptt: true 
         }, { quoted: mek });
