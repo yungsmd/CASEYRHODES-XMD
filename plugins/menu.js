@@ -335,12 +335,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┋ ☻ *settings*
 ╰━━━━∙⋆⋅⋆∙━ ─ • ─┉─⊷
 
- ${config.DESCRIPTION}`;
+> ${config.DESCRIPTION}`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/n8dydc.mp3` },
+                image: { url: `https://i.ibb.co/27X4G1Cd/lordcasey.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
