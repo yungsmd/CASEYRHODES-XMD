@@ -99,7 +99,7 @@ reply("*_CASEYRHODES XMD STARTED NOW...🚀_*");
 //--------------------------------------------
 
 cmd({
-    pattern: "auto_typing",
+    pattern: "autotyping",
     alias: ["autotyping"],
     desc: "enable or disable auto-reply.",
     category: "settings",
@@ -126,7 +126,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //  AUTO-REPLY COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "always_online",
+    pattern: "alwaysonline",
     alias: ["alwaysonline"],
     desc: "enable or disable auto-reply.",
     category: "settings",
@@ -150,7 +150,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //  AUTO-REPLY COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "auto_reacording",
+    pattern: "autoreacording",
     alias: ["autorecording"],
     desc: "enable or disable auto-reply.",
     category: "settings",
@@ -175,7 +175,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 // AUTO_VIEW_STATUS COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "status_view",
+    pattern: "statusview",
     alias: ["auto_status_seen"],
     desc: "Enable or disable auto-viewing of statuses",
     category: "settings",
@@ -200,7 +200,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 // AUTO_LIKE_STATUS COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "status_react",
+    pattern: "statusreact",
     alias: ["statusreact"],
     desc: "Enable or disable auto-liking of statuses",
     category: "settings",
@@ -226,7 +226,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //  READ-MESSAGE COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "read_message",
+    pattern: "readmessage",
     alias: ["autoread"],
     desc: "enable or disable readmessage.",
     category: "settings",
@@ -251,7 +251,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //  ANI-BAD COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "anti_bad",
+    pattern: "antibad",
     alias: ["antibad"],
     desc: "enable or disable antibad.",
     category: "settings",
@@ -276,7 +276,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //  AUTO-STICKER COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "auto_sticker",
+    pattern: "autosticker",
     alias: ["autosticker"],
     desc: "enable or disable auto-sticker.",
     category: "settings",
@@ -301,7 +301,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //  AUTO-REPLY COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "auto_reply",
+    pattern: "autoreply",
     alias: ["autoreply"],
     desc: "enable or disable auto-reply.",
     category: "settings",
@@ -327,7 +327,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //  AUTO-REPLY COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "auto_voice",
+    pattern: "autovoice",
     alias: ["autovoice"],
     desc: "enable or disable auto-reply.",
     category: "settings",
@@ -353,7 +353,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //   AUTO-REACT COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "auto_react",
+    pattern: "autoreact",
     alias: ["autoreact","areact"],
     desc: "Enable or disable the autoreact feature",
     category: "settings",
@@ -378,7 +378,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //   AUTO-REACT COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "custom_reacts",
+    pattern: "customreacts",
     alias: ["heartreact","dillreact"],
     desc: "Enable or disable the autoreact feature",
     category: "settings",
@@ -403,7 +403,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //   AUTO-REACT COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "anti_link",
+    pattern: "antilink",
     alias: ["antilink","anti"],
     desc: "Enable or disable the autoreact feature",
     category: "settings",
@@ -428,7 +428,7 @@ async (conn, mek, m, { from, args, isOwner, reply }) => {
 //  STATUS-REPLY COMMANDS
 //--------------------------------------------
 cmd({
-    pattern: "status_reply",
+    pattern: "statusreply",
     alias: ["autostatusreply"],
     desc: "enable or disable status-reply.",
     category: "settings",
