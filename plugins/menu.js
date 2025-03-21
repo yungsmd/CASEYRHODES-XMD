@@ -34,6 +34,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃❍┃• *𝖢σnvєrtmєnu*
 ┃❍┃• *𝖥unmєnu*
 ┃❍┃• *𝖣lmєnu*
+┃❍┃• *𝖲єttíngѕmєnu
 ┃❍┃• *𝖫ístmєnu*
 ┃❍┃• *𝖬αínmєnu*
 ┃❍┃• *𝖦rσupmєnu*
@@ -318,20 +319,25 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 ╭─────────────⪼
 ┋ ☻ *setprefix* 
-┋ ☻ *autoreadstatus*
-┋ ☻ *setmode*
+┋ ☻ *statusview*
+┋ ☻ *mode*
+┋ ☻ *statusreply*
+┋ ☻ *alwaysonline*
+┋ ☻ *autorecording*
+┋ ☻ *autotyping*
 ┋ ☻ *setbotnumber*
 ┋ ☻ *autovoice*
 ┋ ☻ *autosticker*
 ┋ ☻ *autoreply*
 ┋ ☻ *autoreply*
+┋ ☻ *statusreact*
 ┋ ☻ *autoreact*
 ┋ ☻ *welcome*
+┋ ☻ *customreacts*
 ┋ ☻ *antibad*
 ┋ ☻ *antibot*
 ┋ ☻ *antilink*
-┋ ☻ *allwaysonline*
-┋ ☻ *readcmd*
+┋ ☻ *readmessage*
 ┋ ☻ *settings*
 ╰━━━━∙⋆⋅⋆∙━ ─ • ─┉─⊷
 
