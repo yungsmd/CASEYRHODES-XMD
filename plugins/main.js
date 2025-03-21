@@ -16,16 +16,16 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         let dec = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ Owner : *${config.OWNER_NAME}*
-┃★│ Baileys : *Multi Device*
-┃★│ Type : *NodeJs*
-┃★│ Platform : *Heroku*
-┃★│ Mode : *[${config.MODE}]*
-┃★│ Prifix : *[${config.PREFIX}]*
-┃★│ Version : *1.0.0*
+┃★│ *ᴏᴡɴᴇʀ* : ${config.OWNER_NAME}
+┃★│ *ʙᴀʏʟᴇʏs* : Multi Device
+┃★│ *ᴛʏᴘᴇ* : NodeJs
+┃★│ *ᴘʟᴀᴛғᴏʀᴍ* : Heroku
+┃★│ *ᴍᴏᴅᴇ* : [${config.MODE}]
+┃★│ *ᴘʀᴇғɪx* : [${config.PREFIX}]
+┃★│ *𝖵ᴇʀsɪᴏɴ" : 1.0.0
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *Download Menu* 〕━━┈⊷
+╭━━〔 *ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• facebook
 ┃◈┃• mediafire
@@ -114,6 +114,30 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• jid
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
+〘 𝖲𝖤𝖳𝖳𝖨𝖭𝖦𝖲 𝗠𝗘𝗡𝗨 〙
+╭─────────────⪼
+┋ ☻ *setprefix* 
+┋ ☻ *statusview*
+┋ ☻ *mode*
+┋ ☻ *statusreply*
+┋ ☻ *alwaysonline*
+┋ ☻ *autorecording*
+┋ ☻ *autotyping*
+┋ ☻ *setbotnumber*
+┋ ☻ *autovoice*
+┋ ☻ *autosticker*
+┋ ☻ *autoreply*
+┋ ☻ *autoreply*
+┋ ☻ *statusreact*
+┋ ☻ *autoreact*
+┋ ☻ *welcome*
+┋ ☻ *customreacts*
+┋ ☻ *antibad*
+┋ ☻ *antibot*
+┋ ☻ *antilink*
+┋ ☻ *readmessage*
+┋ ☻ *settings*
+╰━━━━∙⋆⋅⋆∙━ ─ • ─┉─⊷
 ╭━━〔 *Fun Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• insult
