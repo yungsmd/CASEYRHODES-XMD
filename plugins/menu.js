@@ -27,22 +27,22 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *𝐌𝐄𝐍𝐔𝐋𝐈𝐒𝐓* 〕━━┈⊷
 ┃❍╭─────────────·
-┃❍┃• *prαчєrtímє*
-┃❍┃• *qurαnmєnu*
-┃❍┃• *αímєnu*
-┃❍┃• *αnímєmєnu*
-┃❍┃• *cσnvєrtmєnu*
-┃❍┃• *funmєnu*
-┃❍┃• *dlmєnu*
-┃❍┃• *lístmєnu*
-┃❍┃• *mαínmєnu*
-┃❍┃• *grσupmєnu*
-┃❍┃• *αllmєnu*
-┃❍┃• *вíвlєlíѕt*
-┃❍┃• *σwnєrmєnu*
-┃❍┃• *σthєrmєnu*
-┃❍┃• *lσgσ <𝙩𝙚𝙭𝙩>*
-┃❍┃• *rєpσ*
+┃❍┃• *𝖯rαчєrtímє*
+┃❍┃• *𝖰urαnmєnu*
+┃❍┃• *𝖠ímєnu*
+┃❍┃• *𝖠nímєmєnu*
+┃❍┃• *𝖢σnvєrtmєnu*
+┃❍┃• *𝖥unmєnu*
+┃❍┃• *𝖣lmєnu*
+┃❍┃• *𝖫ístmєnu*
+┃❍┃• *𝖬αínmєnu*
+┃❍┃• *𝖦rσupmєnu*
+┃❍┃• *𝖠llmєnu*
+┃❍┃• *𝖡íвlєlíѕt*
+┃❍┃• *𝖮wnєrmєnu*
+┃❍┃• *𝖮thєrmєnu*
+┃❍┃• *𝖫σgσ <𝙩𝙚𝙭𝙩>*
+┃❍┃• *𝖱єpσ*
 ┃❍└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
@@ -290,6 +290,65 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '12036330267721743@newsletter',
                         newsletterName: 'CASEYRHODES-XMD 💖🦄',
+                        serverMessageId: 143
+                    }
+                }
+            },
+            { quoted: mek }
+        );
+
+    } catch (e) {
+        console.log(e);
+        reply(`${e}`);
+    }
+});
+
+// settings menu
+
+cmd({
+    pattern: "settingsmenu",
+    desc: "menu the bot",
+    category: "menu",
+    react: "🤖",
+    filename: __filename
+}, 
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        let dec = `〘 𝖲𝖤𝖳𝖳𝖨𝖭𝖦𝖲 𝗠𝗘𝗡𝗨 〙
+
+╭─────────────⪼
+┋ ☻ *setprefix* 
+┋ ☻ *autoreadstatus*
+┋ ☻ *setmode*
+┋ ☻ *setbotnumber*
+┋ ☻ *autovoice*
+┋ ☻ *autosticker*
+┋ ☻ *autoreply*
+┋ ☻ *autoreply*
+┋ ☻ *autoreact*
+┋ ☻ *welcome*
+┋ ☻ *antibad*
+┋ ☻ *antibot*
+┋ ☻ *antilink*
+┋ ☻ *allwaysonline*
+┋ ☻ *readcmd*
+┋ ☻ *settings*
+╰━━━━∙⋆⋅⋆∙━ ─ • ─┉─⊷
+
+ ${config.DESCRIPTION}`;
+
+        await conn.sendMessage(
+            from,
+            {
+                image: { url: `https://files.catbox.moe/n8dydc.mp3` },
+                caption: dec,
+                contextInfo: {
+                    mentionedJid: [m.sender],
+                    forwardingScore: 999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterName: 'CASEYRHODES-XMD',
                         serverMessageId: 143
                     }
                 }
